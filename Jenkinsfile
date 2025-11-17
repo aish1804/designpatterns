@@ -17,6 +17,7 @@ pipeline {
                 echo 'Step1: Starting testing... ...'
                 sh './gradlew test'
             }
+
         }
     }
 }
