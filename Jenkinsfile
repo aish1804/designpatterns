@@ -17,7 +17,17 @@ pipeline {
                 echo 'Step1: Starting testing... ...'
                 sh './gradlew test'
             }
-
+            post {
+                junit "build/reports/tests/test/*.xml"
+                publishHTML {
+                    reportDir: "build/reports/tests/test",
+                    reportFiles: "index.html",
+                    reportName: "Test Report",
+                    alwaysLinkToLastBuild: true,
+                    allowMissing: true,
+                    keepAll: true
+                }
+            }
         }
     }
 }
