@@ -1,20 +1,19 @@
 pipeline {
     agent any
 
+    parameters {
+        string(name: 'VERSION', defaultValue:"1.0.0", description: "Build Version")
+    }
+
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Starting build... ...'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
+                echo 'Starting testing... ...'
             }
         }
     }
