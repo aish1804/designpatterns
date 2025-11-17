@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Mp4PlayerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-17T20:52:40" hostname="z336daisplus.local" time="0.001">
+  <properties/>
+  <testcase name="testMP4()" classname="Mp4PlayerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

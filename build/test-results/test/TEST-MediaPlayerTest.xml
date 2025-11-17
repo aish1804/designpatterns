@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MediaPlayerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-11-17T20:52:40" hostname="z336daisplus.local" time="0.006">
+  <properties/>
+  <testcase name="test_playMusic()" classname="MediaPlayerTest" time="0.005"/>
+  <testcase name="test_nothing()" classname="MediaPlayerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
