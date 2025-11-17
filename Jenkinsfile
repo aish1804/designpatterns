@@ -8,13 +8,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Step1: Starting build... ...'
+                echo 'Stage: Build -- Step1: Starting build... ...'
                 sh './gradlew build'
             }
         }
         stage('Test') {
             steps {
-                echo 'Step1: Starting testing... ...'
+                echo 'Stage Test -- Step1: Starting testing... ...'
                 sh './gradlew test'
             }
             post {
